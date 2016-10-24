@@ -2,10 +2,7 @@
  * Created by liveuser on 24.10.16.
  */
 public class MovablePoint implements Movable {
-     int x;
-     int y;
-     int xSpeed;
-     int ySpeed;
+   int x1,y1,y2,x2, x,y,xSpeed,ySpeed;
 
     public MovablePoint(int x, int y,int xSpeed, int ySpeed){
         this.x=x;
